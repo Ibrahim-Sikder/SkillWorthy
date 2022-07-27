@@ -4,6 +4,9 @@
     padding:0;
     box-sizing:border-box;
 }
+p{
+    font-size:14px;
+}
 
 /*
 ================
@@ -76,7 +79,7 @@ Courses Section styling
 
 /*
 ================
-Courses Section styling
+Ready Section styling
 ==================
 */
 
@@ -90,4 +93,16 @@ Courses Section styling
 
 .ready p{
     font-size:12px;
+}
+
+/*
+================
+Student Section styling
+==================
+*/
+.SingleStudent img{
+    max-width:100%;
+}
+.SingleStudent{
+    margin-right:15px !important;
 }
