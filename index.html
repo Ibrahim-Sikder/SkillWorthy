@@ -1,90 +1,464 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Skill Worthy</title>
     <!--Google fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <!--Fontawesom cdn-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- Bootstrap css link  -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <!--Custom css -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<!--Header section-->
-<header id="headerSection">
-    <!--Navbar-->
-   <section class="NavaBar container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">SkillWorthy</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Courses</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Class</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact us</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-   </section>
-
-      <!--Slider Area-->
-   <section class="slider container">
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">   
-        <div class="carousel-inner">
-          <div class="carousel-item active singleSlider" data-bs-interval="10000">
-            <img src="images/cover/cover-1.png" class="d-block w-100" alt="slider">
-            <div class="carouselContent">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Get Started Digital <br> Learning</h5>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
-                    <a href="#">Get Started </a>
-                  </div>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Header section-->
+    <header id="headerSection">
+      <!--Navbar-->
+      <section class="NavaBar container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">SkillWorthy</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo02"
+              aria-controls="navbarTogglerDemo02"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Class</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact us</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
             </div>
           </div>
-         
-          
+        </nav>
+      </section>
+
+      <!--Slider Area-->
+      <section class="slider">
+        <div
+          id="carouselInterval"
+          class="slider carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <!--Carousel Item-->
+            <div
+              class="slider-item carousel-item active"
+              data-bs-interval="10000"
+            >
+              <img src="images/cover/cover-1.png" alt="slider" />
+              <div class="sliderContent">
+                <h1>
+                  Get Started Digital <br />
+                  Learning
+                </h1>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <a
+                  class="bg-info text-decoration-none text-white py-2 text-bold rounded px-4 mt-3 d-inline-block"
+                  href="#"
+                  >Get Started
+                </a>
+              </div>
+            </div>
+            <!--Carousel Item-->
+            <div class="slider-item carousel-item" data-bs-interval="2000">
+              <img src="images/cover/cover-1.png" alt="slider" />
+              <div class="sliderContent">
+                <h1>
+                  Get Started Digital <br />
+                  Learning
+                </h1>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <a
+                  class="bg-info text-decoration-none text-white py-2 text-bold rounded px-4 mt-3 d-inline-block"
+                  href="#"
+                  >Get Started
+                </a>
+              </div>
+            </div>
+            <!--Carousel Item-->
+            <div class="slider-item carousel-item">
+              <img src="images/cover/cover-1.png" alt="slider" />
+              <div class="sliderContent">
+                <h1>
+                  Get Started Digital <br />
+                  Learning
+                </h1>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <a
+                  class="bg-info text-decoration-none text-white py-2 text-bold rounded px-4 mt-3 d-inline-block"
+                  href="#"
+                  >Get Started
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselInterval"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselInterval"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+      </section>
+    </header>
+
+    <main>
+      <!--Courses Section-->
+      <section class="courseSection text-center container mt-5 pt-5">
+        <!--Course title -->
+        <div class="courseTitle text-center">
+          <div class="col-12">
+            <div class="row">
+              <h2 class="text-capitalize h1 lh-sm">
+                Discover Our Popular <br />
+                Courses
+              </h2>
+              <p class="lead lh-base">
+                It is a long established fact that a reader will be distracted
+                by the readableb <br />
+                content of a page when looking at its layout.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--Main courses -->
+        <div class="row">
+          <div class="col-md-6 col-sm-12 mb-3">
+            <div class="singleCourse border">
+              <div class="row">
+                <div class="col-md-4 col-sm-12">
+                  <div class="courseImg">
+                    <img
+                      class="img-fluid"
+                      src="images/course/course-1.png"
+                      alt="Courses"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-8 col-sm-12">
+                  <div class="coursContent">
+                    <h4 class="h5 pt-4">Fundamental Of UI/UX Design</h4>
+                    <p class="lead pe-3">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card.
+                    </p>
+                    <strong class="text-info">Price : 20$</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 mb-3">
+            <div class="singleCourse border">
+              <div class="row">
+                <div class="col-md-4 col-sm-12">
+                  <div class="courseImg">
+                    <img
+                      class="img-fluid"
+                      src="images/course/course-2.png"
+                      alt="Courses"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-8 col-sm-12">
+                  <div class="coursContent">
+                    <h4 class="h5 pt-4">Fundamental Of UI/UX Design</h4>
+                    <p class="lead pe-3">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card.
+                    </p>
+                    <strong class="text-info">Price : 20$</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 mb-3">
+            <div class="singleCourse border">
+              <div class="row">
+                <div class="col-md-4 col-sm-12">
+                  <div class="courseImg">
+                    <img
+                      class="img-fluid"
+                      src="images/course/course-3.png"
+                      alt="Courses"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-8 col-sm-12">
+                  <div class="coursContent">
+                    <h4 class="h5 pt-4">Fundamental Of UI/UX Design</h4>
+                    <p class="lead pe-3">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card.
+                    </p>
+                    <strong class="text-info">Price : 20$</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="singleCourse border">
+              <div class="row">
+                <div class="col-md-4 col-sm-12">
+                  <div class="courseImg">
+                    <img
+                      class="img-fluid"
+                      src="images/course/course-4.png"
+                      alt="Courses"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-8 col-sm-12">
+                  <div class="coursContent">
+                    <h4 class="h5 pt-4">Fundamental Of UI/UX Design</h4>
+                    <p class="lead pe-3">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card.
+                    </p>
+                    <strong class="text-info">Price : 20$</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="singleCourse border">
+              <div class="row">
+                <div class="col-md-4 col-sm-12">
+                  <div class="courseImg">
+                    <img
+                      class="img-fluid"
+                      src="images/course/course-5.png"
+                      alt="Courses"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-8 col-sm-12">
+                  <div class="coursContent">
+                    <h4 class="h5 pt-4">Fundamental Of UI/UX Design</h4>
+                    <p class="lead pe-3">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card.
+                    </p>
+                    <strong class="text-info">Price : 20$</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="singleCourse border">
+              <div class="row">
+                <div class="col-md-4 col-sm-12">
+                  <div class="courseImg">
+                    <img
+                      class="img-fluid"
+                      src="images/course/course-6.png"
+                      alt="Courses"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-8 col-sm-12">
+                  <div class="coursContent">
+                    <h4 class="h5 pt-4">Fundamental Of UI/UX Design</h4>
+                    <p class="lead pe-3">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card.
+                    </p>
+                    <strong class="text-info">Price : 20$</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="text-center bg-info text-white mt-5 px-3 py-2 border border-0 rounded text-capitalize"
+        >
+          see more courses
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+      </section>
 
-   </section>
-</header>
-
-
-
-
-
+      <!--Explore Section -->
+      <section id="explore" class="mt-5 pt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <div class="exploreLeft">
+                <img
+                  class="img-fluid"
+                  src="images/working.png"
+                  alt="exploreImg"
+                />
+              </div>
+            </div>
+            <div
+              class="col-md-6 col-sm-12 d-flex align-items-center justify-content-center exploreBackground ps-4"
+            >
+              <div class="exploreRightContent">
+                <h3 class="h1 fw-bold">
+                  Explore The elearning <br />
+                  Institute
+                </h3>
+                <p class="lead">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, or randomised words which don't look
+                  even slightly believable. If you are going to use a passage of
+                  Lorem Ipsum, you need to be sure.
+                </p>
+                <p class="lead my-4">
+                  Anything embarrassing hidden in the middle of text. All the
+                  Lorem Ipsum generators on the Internet tend to repeat
+                  predefined
+                </p>
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="rating">
+                      <h2 class="h2 fw-bold">5.2k +</h2>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="rating">
+                      <h2 class="h2 fw-bold">5.2k +</h2>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="rating">
+                      <h2 class="h2 fw-bold">5.2k +</h2>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="bg-info text-white px-4 py-2 text-capitalize border-0 rounded mt-3"
+                >
+                  read more
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Ready section -->
+      <section class="readyTojoin">
+        <div class="container">
+          <div class="ready bg-info p-5 container mt-5">
+            <div class="row">
+              <div class="col-md-9">
+                <h2 class="h1 text-white">Ready to join?</h2>
+                <p class="lead text-white">
+                  It is a long established fact that a reader will be distracted
+                  by the <br />
+                  readable content of a page when looking at its layout
+                </p>
+              </div>
+              <div
+                class="col-md-3 d-flex align-items-center justify-content-center"
+              >
+                <div class="readyLeft">
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn bg-white  text-capitalize text-info px-4 py-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">register now</button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title text-capitalize " id="staticBackdropLabel" > Modal is an awesome feature of Bootstrap</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" ></button>
+                        </div>
+                        <div class="modal-body">Modals are built with HTML, CSS, and JavaScript. They're positioned over everything else in the document and remove scroll from the <body> so that modal content scrolls instead. Clicking on the modal “backdrop” will automatically close the modal. Bootstrap only supports one modal window at a time.</div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"> Close</button>
+                          <button type="button" class="btn btn-primary" data-bs-dismiss="modal"> Understood </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <!--Bootstrap js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
