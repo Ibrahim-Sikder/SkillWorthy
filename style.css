@@ -100,9 +100,32 @@ Ready Section styling
 Student Section styling
 ==================
 */
-.SingleStudent img{
-    max-width:100%;
+
+/*
+================
+Feedback Section styling
+==================
+*/
+
+.feedbackLeft p{
+    font-size:12px !important;
+    text-align:left;
+    line-height:22px;
 }
-.SingleStudent{
-    margin-right:15px !important;
+.feedbackTop i{
+    font-size:12px;
+    
+}
+
+/*
+==================
+Accordion Section styling
+===================
+*/
+.accordionTitle p{
+font-size:14px;
+}
+.accordion{
+    width:70%;
+    margin:0 auto;
 }
