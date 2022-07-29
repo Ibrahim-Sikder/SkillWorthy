@@ -3,9 +3,7 @@
     .sliderContent h1{
         font-size:25px;
     }
-    .sliderContent p{
-        font-size:12px;
-    }
+   
     .slider-item {
         height:80vh;
     }
@@ -13,18 +11,11 @@
         height:100%;
         object-fit:cover;
     }
-    .courseSection{
-        margin-top:20px !important;
-        padding-top:10px !important;
-    }
-    .singleCourse{
-        text-align:left;
-        padding-bottom:15px;
-        margin-bottom:10px;
-    }
-    #studentSection{
-        margin-top:0 !important;
-        padding-top:0;
+
+    
+   
+    .studentTitle p{
+        width:100% !important;
     }
     .coursContent{
         padding-left:5px;
@@ -32,30 +23,28 @@
    
   .card{
     width:100% !important;
-    text-align:center !important;
+    
   }
 
   .accordion{
    width:100%;
 }
-#feedback{
-    margin-bottom:50px;
-}
+
 .accordionPara{
     width:400px;
 }
-.companySection{
-    display:none;
-}
-.coursContent{
-    text-align:left !important;
+
+
+.exploreLeft img{
+    max-width:67% !important;
+    
 }
 
 }
 
 @media only screen and (max-width:768px){
     .exploreLeft{
-        width:calc(100% + 20%) !important;
+        width:calc(100% + 50%) !important;
         
     }
     .studentTitle{
@@ -80,8 +69,6 @@
       .accordion{
         width:100%;
      }
-     .companySection{
-        display:none;
-    }
-  
+   
+ 
 }
